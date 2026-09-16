@@ -1,0 +1,2091 @@
+{
+  "conversations": {
+    "7a97ae46-83ae-4989-abe1-17b8b97f5fd5": {
+      "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+      "created_at": "2026-09-07T10:16:16.673917Z",
+      "updated_at": "2026-09-07T10:27:27.374448Z",
+      "context": {
+        "latitude": 37.77604577888937,
+        "longitude": -122.43969419061727,
+        "locationName": "Selected Location",
+        "radiusKm": 0.5
+      }
+    },
+    "cb0d4628-13be-4c70-b735-c4e548f6d57a": {
+      "conversation_id": "cb0d4628-13be-4c70-b735-c4e548f6d57a",
+      "created_at": "2026-09-07T10:22:36.083824Z",
+      "updated_at": "2026-09-07T10:22:36.104581Z",
+      "context": null
+    },
+    "79e8df86-da21-4fdf-bfd7-4ffce36df9f2": {
+      "conversation_id": "79e8df86-da21-4fdf-bfd7-4ffce36df9f2",
+      "created_at": "2026-09-07T10:22:36.112479Z",
+      "updated_at": "2026-09-07T10:22:36.123874Z",
+      "context": null
+    },
+    "f21bab3c-d973-4c9e-9e33-74e5f341bb7b": {
+      "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+      "created_at": "2026-09-07T10:22:36.132841Z",
+      "updated_at": "2026-09-07T10:22:36.159687Z",
+      "context": null
+    },
+    "1d7e980d-0a4f-4297-aed7-ac502a80af7d": {
+      "conversation_id": "1d7e980d-0a4f-4297-aed7-ac502a80af7d",
+      "created_at": "2026-09-07T11:18:03.206947Z",
+      "updated_at": "2026-09-07T11:18:23.571718Z",
+      "context": {
+        "latitude": 37.78620623881373,
+        "longitude": -122.51968839227743,
+        "locationName": "Selected Location",
+        "radiusKm": 0.5
+      }
+    },
+    "fc05d2a3-10ee-4607-86fb-92eea70089c6": {
+      "conversation_id": "fc05d2a3-10ee-4607-86fb-92eea70089c6",
+      "created_at": "2026-09-16T10:24:40.718013Z",
+      "updated_at": "2026-09-16T10:24:40.733058Z",
+      "context": null
+    },
+    "5e7b7c2f-ced0-407a-86ec-cd5776c0604e": {
+      "conversation_id": "5e7b7c2f-ced0-407a-86ec-cd5776c0604e",
+      "created_at": "2026-09-16T10:24:40.742769Z",
+      "updated_at": "2026-09-16T10:24:40.752196Z",
+      "context": null
+    },
+    "8103ed2c-103c-4256-9572-cf45a7c81050": {
+      "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+      "created_at": "2026-09-16T10:24:40.759522Z",
+      "updated_at": "2026-09-16T10:24:40.779868Z",
+      "context": null
+    },
+    "8850bd42-b38f-4c4e-9459-609c0f8af417": {
+      "conversation_id": "8850bd42-b38f-4c4e-9459-609c0f8af417",
+      "created_at": "2026-09-16T10:30:01.565577Z",
+      "updated_at": "2026-09-16T10:30:01.581712Z",
+      "context": null
+    },
+    "58692823-f1b4-435a-9469-1cf49287f737": {
+      "conversation_id": "58692823-f1b4-435a-9469-1cf49287f737",
+      "created_at": "2026-09-16T10:30:01.590877Z",
+      "updated_at": "2026-09-16T10:30:01.614339Z",
+      "context": null
+    },
+    "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1": {
+      "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+      "created_at": "2026-09-16T10:30:01.621974Z",
+      "updated_at": "2026-09-16T10:30:01.645029Z",
+      "context": null
+    },
+    "e92d855c-9071-4863-8b31-87d4bc90e825": {
+      "conversation_id": "e92d855c-9071-4863-8b31-87d4bc90e825",
+      "created_at": "2026-09-16T10:34:35.256131Z",
+      "updated_at": "2026-09-16T10:34:35.273380Z",
+      "context": null
+    },
+    "70abb793-607b-466c-ba0f-c958ab456253": {
+      "conversation_id": "70abb793-607b-466c-ba0f-c958ab456253",
+      "created_at": "2026-09-16T10:34:35.280984Z",
+      "updated_at": "2026-09-16T10:34:35.292825Z",
+      "context": null
+    },
+    "139fe564-234d-4317-97b1-df5b930c0ac1": {
+      "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+      "created_at": "2026-09-16T10:34:35.299843Z",
+      "updated_at": "2026-09-16T10:34:35.322672Z",
+      "context": null
+    },
+    "6af8eb12-0414-4711-9012-00e7786b9fc6": {
+      "conversation_id": "6af8eb12-0414-4711-9012-00e7786b9fc6",
+      "created_at": "2026-09-16T10:38:27.368248Z",
+      "updated_at": "2026-09-16T10:38:27.383492Z",
+      "context": null
+    },
+    "6331e4aa-41f3-44f5-b59b-b911cd7012ac": {
+      "conversation_id": "6331e4aa-41f3-44f5-b59b-b911cd7012ac",
+      "created_at": "2026-09-16T10:38:27.390438Z",
+      "updated_at": "2026-09-16T10:38:27.402446Z",
+      "context": null
+    },
+    "fbfdb9b1-179a-4691-9849-f17243f2e572": {
+      "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+      "created_at": "2026-09-16T10:38:27.409231Z",
+      "updated_at": "2026-09-16T10:38:27.430335Z",
+      "context": null
+    }
+  },
+  "messages": {
+    "7a97ae46-83ae-4989-abe1-17b8b97f5fd5": [
+      {
+        "message_id": "4607b105-f8c0-4d92-a8dd-5c77fd24e957",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "user",
+        "text": "WHAT IS DEVELOPED HERE IN LAST TWO YEARS",
+        "timestamp": "2026-09-07T10:16:16.708481Z"
+      },
+      {
+        "message_id": "c04f7573-2e5b-4630-a07f-98ff1dce491f",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Selected 0.5 km radius area mein satellite imagery comparison ke according development-related surface change noticeable hai.\\n\\nBefore imagery: 2021-10-16T19:04:15.065000Z\\nAfter imagery: 2026-07-14T19:04:26.020000Z\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\n\\nNote: This is a satellite-derived change/development proxy, not an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2021-10-16T19:04:15.065000Z\", \"newest_date\": \"2026-07-14T19:04:26.020000Z\", \"provider\": null, \"oldest_cloud_cover\": 0.00635, \"newest_cloud_cover\": 0.010391, \"oldest_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif\", \"newest_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif\"}, \"change_evidence\": {\"before_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif\", \"after_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif\", \"change_percentage\": 0.78, \"change_summary\": \"Minimal or no change detected (0.8% of sampled region).\", \"method\": \"baseline_change_detection\"}, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 0.79 km\\u00b2 within a 0.5 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2021-10-16T19:04:15.065000Z to 2026-07-14T19:04:26.020000Z.\", \"A baseline change detection measured 0.78% pixel difference between the oldest and newest imagery.\"], \"analysis_context\": {\"center\": {\"latitude\": 37.77604577888937, \"longitude\": -122.43969419061727}, \"radius_km\": 0.5, \"approximate_area_sqkm\": 0.79, \"confidence\": \"high\"}}}",
+        "timestamp": "2026-09-07T10:16:27.044870Z"
+      },
+      {
+        "message_id": "6097271c-43fa-4fa1-8e53-9f10c0537723",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "user",
+        "text": "GIVE IN DETAIL",
+        "timestamp": "2026-09-07T10:26:01.707970Z"
+      },
+      {
+        "message_id": "ea68738f-e0b7-4456-af96-d48ba529c2e5",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "assistant",
+        "text": "{\"task\": \"VQA\", \"status\": \"missing-input\", \"reason\": \"Requires at least 1 image.\"}",
+        "timestamp": "2026-09-07T10:26:01.940925Z"
+      },
+      {
+        "message_id": "bffd2914-0ad0-469c-b524-3e9e5bdfd1f5",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "user",
+        "text": "AT HERE",
+        "timestamp": "2026-09-07T10:27:27.365333Z"
+      },
+      {
+        "message_id": "be98c195-18e5-4e64-a929-5247e5b7be73",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "role": "assistant",
+        "text": "{\"task\": \"VQA\", \"status\": \"mock\", \"answer\": \"Mock VQA result. Real remote-sensing model not connected yet.\"}",
+        "timestamp": "2026-09-07T10:27:27.374431Z"
+      }
+    ],
+    "cb0d4628-13be-4c70-b735-c4e548f6d57a": [
+      {
+        "message_id": "2744c5a8-abe0-45b8-965b-4d7391a16c22",
+        "conversation_id": "cb0d4628-13be-4c70-b735-c4e548f6d57a",
+        "role": "user",
+        "text": "Is area mein pichle 10 saal mein kitna development hua?",
+        "timestamp": "2026-09-07T10:22:36.096253Z"
+      },
+      {
+        "message_id": "e6cc4c6b-dd8d-465b-a2f1-b39f590c98b5",
+        "conversation_id": "cb0d4628-13be-4c70-b735-c4e548f6d57a",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\\nBefore imagery: 2014-06-15T00:00:00Z\\nAfter imagery: 2024-06-15T00:00:00Z\\nThe analysis indicates approximately 15.5% surface change in the selected area.\\n\\nBuilt-up/development proxy:\\nBefore: 10.0\\nAfter: 25.0\\nChange: 15.0 (increased)\\n\\nVegetation indicator:\\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\\n\\nWater indicator:\\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\\n\\nOverall interpretation:\\nThe area has a increased development trend with an overall relevance of high.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2014-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 5.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2014.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": {\"before_asset_url\": \"http://example.com/2014.tif\", \"after_asset_url\": \"http://example.com/2024.tif\", \"change_percentage\": 15.5, \"change_summary\": \"Mock change detected\", \"method\": null}, \"land_cover_evidence\": {\"vegetation\": {\"before\": 40.0, \"after\": 30.0, \"change\": 10.0, \"direction\": \"decreased\"}, \"water\": {\"before\": 5.0, \"after\": 5.0, \"change\": 0.0, \"direction\": \"stable\"}, \"built_up\": {\"before\": 10.0, \"after\": 25.0, \"change\": 15.0, \"direction\": \"increased\"}, \"method\": null}, \"real_estate_evidence\": {\"development_activity\": \"high\", \"built_up_presence\": \"high\", \"vegetation_presence\": \"high\", \"water_presence\": \"high\", \"development_trend\": \"increased\", \"overall_relevance\": \"high\", \"reasons\": [\"Built-up proxy indicator is high (25.0).\", \"Vegetation indicator is high (30.0).\", \"Water indicator is high (5.0).\", \"Overall change is 15.5% with a increased built-up trend.\", \"Overall development relevance assessed as high.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.\", \"A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.\", \"Built-up proxy spectral indicator has increased over time.\", \"Vegetation proxy spectral indicator has decreased over time.\", \"Assessed overall development relevance is high.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"increased\"}}}",
+        "timestamp": "2026-09-07T10:22:36.104572Z"
+      }
+    ],
+    "79e8df86-da21-4fdf-bfd7-4ffce36df9f2": [
+      {
+        "message_id": "6453119a-55e0-40bd-9a36-7213fe85828f",
+        "conversation_id": "79e8df86-da21-4fdf-bfd7-4ffce36df9f2",
+        "role": "user",
+        "text": "development 5 years?",
+        "timestamp": "2026-09-07T10:22:36.119738Z"
+      },
+      {
+        "message_id": "549b8078-e6c7-4290-83d8-bbcb851f52d7",
+        "conversation_id": "79e8df86-da21-4fdf-bfd7-4ffce36df9f2",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-07T10:22:36.123857Z"
+      }
+    ],
+    "f21bab3c-d973-4c9e-9e33-74e5f341bb7b": [
+      {
+        "message_id": "2118c09f-3919-4e92-889b-32d5aa2c92ca",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "role": "user",
+        "text": "Analyze development",
+        "timestamp": "2026-09-07T10:22:36.140465Z"
+      },
+      {
+        "message_id": "83282953-e136-4e60-bc8c-912758b14cea",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-07T10:22:36.146836Z"
+      },
+      {
+        "message_id": "69101237-bfe5-487b-9724-e301dd312117",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "role": "user",
+        "text": "change kya hua?",
+        "timestamp": "2026-09-07T10:22:36.153861Z"
+      },
+      {
+        "message_id": "39f9047b-1dcf-418c-845e-37b6bce8577d",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-07T10:22:36.159673Z"
+      }
+    ],
+    "1d7e980d-0a4f-4297-aed7-ac502a80af7d": [
+      {
+        "message_id": "58c26867-840c-4e2e-8c4c-3e36dcf665ce",
+        "conversation_id": "1d7e980d-0a4f-4297-aed7-ac502a80af7d",
+        "role": "user",
+        "text": "LQST",
+        "timestamp": "2026-09-07T11:18:03.300057Z"
+      },
+      {
+        "message_id": "f17ff29d-7936-4df7-9c6c-a555b71ed017",
+        "conversation_id": "1d7e980d-0a4f-4297-aed7-ac502a80af7d",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2021-10-16T19:04:15.065000Z and 2026-07-14T19:04:26.020000Z, the selected 0.5 km area shows direction unavailable development-related surface change.\\nBefore imagery: 2021-10-16T19:04:15.065000Z\\nAfter imagery: 2026-07-14T19:04:26.020000Z\\nThe analysis indicates approximately 0.78% surface change in the selected area.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2021-10-16T19:04:15.065000Z\", \"newest_date\": \"2026-07-14T19:04:26.020000Z\", \"provider\": \"Earth Search (Sentinel-2)\", \"oldest_cloud_cover\": 0.00635, \"newest_cloud_cover\": 0.010391, \"oldest_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif\", \"newest_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif\", \"source\": \"Earth Search (Sentinel-2)\"}, \"change_evidence\": {\"before_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif\", \"after_asset_url\": \"https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif\", \"change_percentage\": 0.78, \"change_summary\": \"Minimal or no change detected (0.8% of sampled region).\", \"method\": \"baseline_change_detection\"}, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 0.79 km\\u00b2 within a 0.5 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2021-10-16T19:04:15.065000Z to 2026-07-14T19:04:26.020000Z.\", \"A baseline change detection measured 0.78% pixel difference between the oldest and newest imagery.\"], \"analysis_context\": {\"center\": {\"latitude\": 37.78620623881373, \"longitude\": -122.51968839227743}, \"radius_km\": 0.5, \"approximate_area_sqkm\": 0.79, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-07T11:18:23.571701Z"
+      }
+    ],
+    "fc05d2a3-10ee-4607-86fb-92eea70089c6": [
+      {
+        "message_id": "e49e3c44-3a65-4bfc-a5c4-e292a0ab66f1",
+        "conversation_id": "fc05d2a3-10ee-4607-86fb-92eea70089c6",
+        "role": "user",
+        "text": "Is area mein pichle 10 saal mein kitna development hua?",
+        "timestamp": "2026-09-16T10:24:40.727716Z"
+      },
+      {
+        "message_id": "2a6ceb37-7e35-4729-b527-fa48bea0549a",
+        "conversation_id": "fc05d2a3-10ee-4607-86fb-92eea70089c6",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\\nBefore imagery: 2014-06-15T00:00:00Z\\nAfter imagery: 2024-06-15T00:00:00Z\\nThe analysis indicates approximately 15.5% surface change in the selected area.\\n\\nBuilt-up/development proxy:\\nBefore: 10.0\\nAfter: 25.0\\nChange: 15.0 (increased)\\n\\nVegetation indicator:\\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\\n\\nWater indicator:\\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\\n\\nOverall interpretation:\\nThe area has a increased development trend with an overall relevance of high.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2014-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 5.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2014.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": {\"before_asset_url\": \"http://example.com/2014.tif\", \"after_asset_url\": \"http://example.com/2024.tif\", \"change_percentage\": 15.5, \"change_summary\": \"Mock change detected\", \"method\": null}, \"land_cover_evidence\": {\"vegetation\": {\"before\": 40.0, \"after\": 30.0, \"change\": 10.0, \"direction\": \"decreased\"}, \"water\": {\"before\": 5.0, \"after\": 5.0, \"change\": 0.0, \"direction\": \"stable\"}, \"built_up\": {\"before\": 10.0, \"after\": 25.0, \"change\": 15.0, \"direction\": \"increased\"}, \"method\": null}, \"real_estate_evidence\": {\"development_activity\": \"high\", \"built_up_presence\": \"high\", \"vegetation_presence\": \"high\", \"water_presence\": \"high\", \"development_trend\": \"increased\", \"overall_relevance\": \"high\", \"reasons\": [\"Built-up proxy indicator is high (25.0).\", \"Vegetation indicator is high (30.0).\", \"Water indicator is high (5.0).\", \"Overall change is 15.5% with a increased built-up trend.\", \"Overall development relevance assessed as high.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.\", \"A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.\", \"Built-up proxy spectral indicator has increased over time.\", \"Vegetation proxy spectral indicator has decreased over time.\", \"Assessed overall development relevance is high.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"increased\"}}}",
+        "timestamp": "2026-09-16T10:24:40.733046Z"
+      }
+    ],
+    "5e7b7c2f-ced0-407a-86ec-cd5776c0604e": [
+      {
+        "message_id": "d92d73c9-63dd-485b-bcba-1ed6ac873d7f",
+        "conversation_id": "5e7b7c2f-ced0-407a-86ec-cd5776c0604e",
+        "role": "user",
+        "text": "development 5 years?",
+        "timestamp": "2026-09-16T10:24:40.748271Z"
+      },
+      {
+        "message_id": "0ce4485f-2023-4a96-9059-d74d3f558c59",
+        "conversation_id": "5e7b7c2f-ced0-407a-86ec-cd5776c0604e",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:24:40.752180Z"
+      }
+    ],
+    "8103ed2c-103c-4256-9572-cf45a7c81050": [
+      {
+        "message_id": "02024df5-c210-44d9-a2d3-3d7507f174d6",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "role": "user",
+        "text": "Analyze development",
+        "timestamp": "2026-09-16T10:24:40.765142Z"
+      },
+      {
+        "message_id": "0057c697-943b-4f0c-a569-107c5d884dd5",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:24:40.769826Z"
+      },
+      {
+        "message_id": "f87d6a72-0114-41d5-8217-faa924a00501",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "role": "user",
+        "text": "change kya hua?",
+        "timestamp": "2026-09-16T10:24:40.775676Z"
+      },
+      {
+        "message_id": "1e34b1eb-ee93-4683-8141-415945a6ca62",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:24:40.779860Z"
+      }
+    ],
+    "8850bd42-b38f-4c4e-9459-609c0f8af417": [
+      {
+        "message_id": "cb5385af-57a1-4f17-acab-7f17e937b5e2",
+        "conversation_id": "8850bd42-b38f-4c4e-9459-609c0f8af417",
+        "role": "user",
+        "text": "Is area mein pichle 10 saal mein kitna development hua?",
+        "timestamp": "2026-09-16T10:30:01.573937Z"
+      },
+      {
+        "message_id": "a643aea6-307e-4816-814d-aae7f6b701ea",
+        "conversation_id": "8850bd42-b38f-4c4e-9459-609c0f8af417",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\\nBefore imagery: 2014-06-15T00:00:00Z\\nAfter imagery: 2024-06-15T00:00:00Z\\nThe analysis indicates approximately 15.5% surface change in the selected area.\\n\\nBuilt-up/development proxy:\\nBefore: 10.0\\nAfter: 25.0\\nChange: 15.0 (increased)\\n\\nVegetation indicator:\\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\\n\\nWater indicator:\\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\\n\\nOverall interpretation:\\nThe area has a increased development trend with an overall relevance of high.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2014-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 5.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2014.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": {\"before_asset_url\": \"http://example.com/2014.tif\", \"after_asset_url\": \"http://example.com/2024.tif\", \"change_percentage\": 15.5, \"change_summary\": \"Mock change detected\", \"method\": null}, \"land_cover_evidence\": {\"vegetation\": {\"before\": 40.0, \"after\": 30.0, \"change\": 10.0, \"direction\": \"decreased\"}, \"water\": {\"before\": 5.0, \"after\": 5.0, \"change\": 0.0, \"direction\": \"stable\"}, \"built_up\": {\"before\": 10.0, \"after\": 25.0, \"change\": 15.0, \"direction\": \"increased\"}, \"method\": null}, \"real_estate_evidence\": {\"development_activity\": \"high\", \"built_up_presence\": \"high\", \"vegetation_presence\": \"high\", \"water_presence\": \"high\", \"development_trend\": \"increased\", \"overall_relevance\": \"high\", \"reasons\": [\"Built-up proxy indicator is high (25.0).\", \"Vegetation indicator is high (30.0).\", \"Water indicator is high (5.0).\", \"Overall change is 15.5% with a increased built-up trend.\", \"Overall development relevance assessed as high.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.\", \"A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.\", \"Built-up proxy spectral indicator has increased over time.\", \"Vegetation proxy spectral indicator has decreased over time.\", \"Assessed overall development relevance is high.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"increased\"}}}",
+        "timestamp": "2026-09-16T10:30:01.581697Z"
+      }
+    ],
+    "58692823-f1b4-435a-9469-1cf49287f737": [
+      {
+        "message_id": "4e78717c-67f6-4aec-a089-be9d8611b226",
+        "conversation_id": "58692823-f1b4-435a-9469-1cf49287f737",
+        "role": "user",
+        "text": "development 5 years?",
+        "timestamp": "2026-09-16T10:30:01.609942Z"
+      },
+      {
+        "message_id": "1c2c19d6-b09b-49ec-a52f-f25e10124c1b",
+        "conversation_id": "58692823-f1b4-435a-9469-1cf49287f737",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:30:01.614332Z"
+      }
+    ],
+    "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1": [
+      {
+        "message_id": "6b3298ab-f163-4cd4-a711-0d0bc95dba5b",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "role": "user",
+        "text": "Analyze development",
+        "timestamp": "2026-09-16T10:30:01.628583Z"
+      },
+      {
+        "message_id": "20eeed6a-d8b9-4dce-bc21-65c00f87d3c1",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:30:01.633597Z"
+      },
+      {
+        "message_id": "4a0c5c16-186e-4053-902d-69f5a31d59c4",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "role": "user",
+        "text": "change kya hua?",
+        "timestamp": "2026-09-16T10:30:01.640829Z"
+      },
+      {
+        "message_id": "261f19e0-2c2d-4e1d-8027-2336c8efc1c0",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:30:01.645021Z"
+      }
+    ],
+    "e92d855c-9071-4863-8b31-87d4bc90e825": [
+      {
+        "message_id": "f29c2780-d5c5-4f31-b7b6-84eeef133a0a",
+        "conversation_id": "e92d855c-9071-4863-8b31-87d4bc90e825",
+        "role": "user",
+        "text": "Is area mein pichle 10 saal mein kitna development hua?",
+        "timestamp": "2026-09-16T10:34:35.266448Z"
+      },
+      {
+        "message_id": "f75098c7-2d03-4c1f-bb85-975c9e1c5c85",
+        "conversation_id": "e92d855c-9071-4863-8b31-87d4bc90e825",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\\nBefore imagery: 2014-06-15T00:00:00Z\\nAfter imagery: 2024-06-15T00:00:00Z\\nThe analysis indicates approximately 15.5% surface change in the selected area.\\n\\nBuilt-up/development proxy:\\nBefore: 10.0\\nAfter: 25.0\\nChange: 15.0 (increased)\\n\\nVegetation indicator:\\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\\n\\nWater indicator:\\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\\n\\nOverall interpretation:\\nThe area has a increased development trend with an overall relevance of high.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2014-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 5.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2014.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": {\"before_asset_url\": \"http://example.com/2014.tif\", \"after_asset_url\": \"http://example.com/2024.tif\", \"change_percentage\": 15.5, \"change_summary\": \"Mock change detected\", \"method\": null}, \"land_cover_evidence\": {\"vegetation\": {\"before\": 40.0, \"after\": 30.0, \"change\": 10.0, \"direction\": \"decreased\"}, \"water\": {\"before\": 5.0, \"after\": 5.0, \"change\": 0.0, \"direction\": \"stable\"}, \"built_up\": {\"before\": 10.0, \"after\": 25.0, \"change\": 15.0, \"direction\": \"increased\"}, \"method\": null}, \"real_estate_evidence\": {\"development_activity\": \"high\", \"built_up_presence\": \"high\", \"vegetation_presence\": \"high\", \"water_presence\": \"high\", \"development_trend\": \"increased\", \"overall_relevance\": \"high\", \"reasons\": [\"Built-up proxy indicator is high (25.0).\", \"Vegetation indicator is high (30.0).\", \"Water indicator is high (5.0).\", \"Overall change is 15.5% with a increased built-up trend.\", \"Overall development relevance assessed as high.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.\", \"A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.\", \"Built-up proxy spectral indicator has increased over time.\", \"Vegetation proxy spectral indicator has decreased over time.\", \"Assessed overall development relevance is high.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"increased\"}}}",
+        "timestamp": "2026-09-16T10:34:35.273372Z"
+      }
+    ],
+    "70abb793-607b-466c-ba0f-c958ab456253": [
+      {
+        "message_id": "54f454ae-f329-4bc9-9b39-bb68b6698fbe",
+        "conversation_id": "70abb793-607b-466c-ba0f-c958ab456253",
+        "role": "user",
+        "text": "development 5 years?",
+        "timestamp": "2026-09-16T10:34:35.288096Z"
+      },
+      {
+        "message_id": "0c315e4c-86a5-4f31-bd3d-3fb90a362804",
+        "conversation_id": "70abb793-607b-466c-ba0f-c958ab456253",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:34:35.292818Z"
+      }
+    ],
+    "139fe564-234d-4317-97b1-df5b930c0ac1": [
+      {
+        "message_id": "2ece8983-df70-4be4-baea-ae40dcff0cfb",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "role": "user",
+        "text": "Analyze development",
+        "timestamp": "2026-09-16T10:34:35.306148Z"
+      },
+      {
+        "message_id": "f92166f6-1dd5-48b0-95dc-222278496962",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:34:35.311744Z"
+      },
+      {
+        "message_id": "7a4b1a95-6de3-4960-af3b-30a9d795c6f0",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "role": "user",
+        "text": "change kya hua?",
+        "timestamp": "2026-09-16T10:34:35.317735Z"
+      },
+      {
+        "message_id": "d0656794-ed77-4b7d-8afa-2cdc43c062c5",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:34:35.322664Z"
+      }
+    ],
+    "6af8eb12-0414-4711-9012-00e7786b9fc6": [
+      {
+        "message_id": "0c8da72d-3ba7-410f-b754-f18a2cd9f66c",
+        "conversation_id": "6af8eb12-0414-4711-9012-00e7786b9fc6",
+        "role": "user",
+        "text": "Is area mein pichle 10 saal mein kitna development hua?",
+        "timestamp": "2026-09-16T10:38:27.375882Z"
+      },
+      {
+        "message_id": "a97ca823-97d0-4918-bd3d-8b903a0e03d4",
+        "conversation_id": "6af8eb12-0414-4711-9012-00e7786b9fc6",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\\nBefore imagery: 2014-06-15T00:00:00Z\\nAfter imagery: 2024-06-15T00:00:00Z\\nThe analysis indicates approximately 15.5% surface change in the selected area.\\n\\nBuilt-up/development proxy:\\nBefore: 10.0\\nAfter: 25.0\\nChange: 15.0 (increased)\\n\\nVegetation indicator:\\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\\n\\nWater indicator:\\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\\n\\nOverall interpretation:\\nThe area has a increased development trend with an overall relevance of high.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2014-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 5.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2014.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": {\"before_asset_url\": \"http://example.com/2014.tif\", \"after_asset_url\": \"http://example.com/2024.tif\", \"change_percentage\": 15.5, \"change_summary\": \"Mock change detected\", \"method\": null}, \"land_cover_evidence\": {\"vegetation\": {\"before\": 40.0, \"after\": 30.0, \"change\": 10.0, \"direction\": \"decreased\"}, \"water\": {\"before\": 5.0, \"after\": 5.0, \"change\": 0.0, \"direction\": \"stable\"}, \"built_up\": {\"before\": 10.0, \"after\": 25.0, \"change\": 15.0, \"direction\": \"increased\"}, \"method\": null}, \"real_estate_evidence\": {\"development_activity\": \"high\", \"built_up_presence\": \"high\", \"vegetation_presence\": \"high\", \"water_presence\": \"high\", \"development_trend\": \"increased\", \"overall_relevance\": \"high\", \"reasons\": [\"Built-up proxy indicator is high (25.0).\", \"Vegetation indicator is high (30.0).\", \"Water indicator is high (5.0).\", \"Overall change is 15.5% with a increased built-up trend.\", \"Overall development relevance assessed as high.\"]}, \"limitations\": [\"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 2 historical imagery records for this location.\", \"Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.\", \"A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.\", \"Built-up proxy spectral indicator has increased over time.\", \"Vegetation proxy spectral indicator has decreased over time.\", \"Assessed overall development relevance is high.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Moderate\", \"development_direction\": \"increased\"}}}",
+        "timestamp": "2026-09-16T10:38:27.383483Z"
+      }
+    ],
+    "6331e4aa-41f3-44f5-b59b-b911cd7012ac": [
+      {
+        "message_id": "30841d85-21ff-47cc-8a3d-98256f76747c",
+        "conversation_id": "6331e4aa-41f3-44f5-b59b-b911cd7012ac",
+        "role": "user",
+        "text": "development 5 years?",
+        "timestamp": "2026-09-16T10:38:27.397825Z"
+      },
+      {
+        "message_id": "fce6addc-1bdd-4b9e-b6d0-91ebf3ad9088",
+        "conversation_id": "6331e4aa-41f3-44f5-b59b-b911cd7012ac",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:38:27.402439Z"
+      }
+    ],
+    "fbfdb9b1-179a-4691-9849-f17243f2e572": [
+      {
+        "message_id": "3899fc53-a546-41c2-b7c9-8ea989bc410e",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "role": "user",
+        "text": "Analyze development",
+        "timestamp": "2026-09-16T10:38:27.415704Z"
+      },
+      {
+        "message_id": "69f76338-c890-4a9d-a7b8-1a50c2a6f3db",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:38:27.420277Z"
+      },
+      {
+        "message_id": "1b98cd1d-0edc-4591-a053-b4a1c404706b",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "role": "user",
+        "text": "change kya hua?",
+        "timestamp": "2026-09-16T10:38:27.426022Z"
+      },
+      {
+        "message_id": "dd267927-5931-487c-8571-5017593a7c30",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "role": "assistant",
+        "text": "{\"task\": \"LOCATION_DEVELOPMENT_ANALYSIS\", \"status\": \"success\", \"answer\": \"Comparable before-and-after imagery dates are not available for this analysis.\\nA reliable quantitative change percentage could not be calculated from the available imagery.\\n\\nOverall interpretation:\\nThe area has a unavailable development trend with an overall relevance of unavailable.\\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\\nAdditional Limitations:\\n- Only one usable imagery asset found. Comparison analysis requires at least two.\\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\\n- Does not predict exact property prices, market value, ROI, or investment returns.\", \"evidence\": {\"imagery_evidence\": {\"oldest_date\": \"2024-06-15T00:00:00Z\", \"newest_date\": \"2024-06-15T00:00:00Z\", \"provider\": \"Sentinel-2 / Earth Search\", \"oldest_cloud_cover\": 2.0, \"newest_cloud_cover\": 2.0, \"oldest_asset_url\": \"http://example.com/2024.tif\", \"newest_asset_url\": \"http://example.com/2024.tif\", \"source\": \"Sentinel-2 / Earth Search\"}, \"change_evidence\": null, \"land_cover_evidence\": null, \"real_estate_evidence\": {\"development_activity\": \"unavailable\", \"built_up_presence\": \"unavailable\", \"vegetation_presence\": \"unavailable\", \"water_presence\": \"unavailable\", \"development_trend\": \"unavailable\", \"overall_relevance\": \"unavailable\", \"reasons\": [\"Insufficient spectral data to compute relevance indicators.\"]}, \"limitations\": [\"Only one usable imagery asset found. Comparison analysis requires at least two.\", \"This is a satellite-derived land-use proxy, NOT a financial or market analysis.\", \"Does not predict exact property prices, market value, ROI, or investment returns.\"], \"evidence_summary\": [\"Analyzed an approximate area of 12.57 km\\u00b2 within a 2.0 km radius.\", \"Analysis confidence is high based on image quality/cloud cover.\", \"Found 1 historical imagery records for this location.\"], \"analysis_context\": {\"center\": {\"latitude\": 30.43, \"longitude\": 74.89}, \"radius_km\": 2.0, \"approximate_area_sqkm\": 12.57, \"confidence\": \"high\", \"baseline_confidence\": \"Low\", \"development_direction\": \"unavailable\"}}}",
+        "timestamp": "2026-09-16T10:38:27.430320Z"
+      }
+    ]
+  },
+  "images": {
+    "7a97ae46-83ae-4989-abe1-17b8b97f5fd5": [
+      {
+        "image_id": "87b13964-44a9-4905-84a5-b4cd5b5f5fb7",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "filename": "766b374bd9134cf2a098dd3742dc9a27.png",
+        "original_filename": "Screenshot 2026-09-07 155645.png",
+        "timestamp": "2026-09-07T10:27:05.566764Z",
+        "metadata": null
+      },
+      {
+        "image_id": "99c2f115-accb-4859-b798-d44b09a011ac",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "filename": "55c88d881295450d9403be705a9356e7.png",
+        "original_filename": "Screenshot 2026-09-07 155645.png",
+        "timestamp": "2026-09-07T10:27:17.819260Z",
+        "metadata": null
+      }
+    ],
+    "cb0d4628-13be-4c70-b735-c4e548f6d57a": [],
+    "79e8df86-da21-4fdf-bfd7-4ffce36df9f2": [],
+    "f21bab3c-d973-4c9e-9e33-74e5f341bb7b": [],
+    "1d7e980d-0a4f-4297-aed7-ac502a80af7d": [],
+    "fc05d2a3-10ee-4607-86fb-92eea70089c6": [],
+    "5e7b7c2f-ced0-407a-86ec-cd5776c0604e": [],
+    "8103ed2c-103c-4256-9572-cf45a7c81050": [],
+    "8850bd42-b38f-4c4e-9459-609c0f8af417": [],
+    "58692823-f1b4-435a-9469-1cf49287f737": [],
+    "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1": [],
+    "e92d855c-9071-4863-8b31-87d4bc90e825": [],
+    "70abb793-607b-466c-ba0f-c958ab456253": [],
+    "139fe564-234d-4317-97b1-df5b930c0ac1": [],
+    "6af8eb12-0414-4711-9012-00e7786b9fc6": [],
+    "6331e4aa-41f3-44f5-b59b-b911cd7012ac": [],
+    "fbfdb9b1-179a-4691-9849-f17243f2e572": []
+  },
+  "analyses": {
+    "7a97ae46-83ae-4989-abe1-17b8b97f5fd5": [
+      {
+        "analysis_id": "44f8ce72-fb16-4128-9805-5f2385e29375",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Selected 0.5 km radius area mein satellite imagery comparison ke according development-related surface change noticeable hai.\n\nBefore imagery: 2021-10-16T19:04:15.065000Z\nAfter imagery: 2026-07-14T19:04:26.020000Z\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\n\nNote: This is a satellite-derived change/development proxy, not an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2021-10-16T19:04:15.065000Z",
+              "newest_date": "2026-07-14T19:04:26.020000Z",
+              "provider": null,
+              "oldest_cloud_cover": 0.00635,
+              "newest_cloud_cover": 0.010391,
+              "oldest_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif",
+              "newest_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif"
+            },
+            "change_evidence": {
+              "before_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif",
+              "after_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif",
+              "change_percentage": 0.78,
+              "change_summary": "Minimal or no change detected (0.8% of sampled region).",
+              "method": "baseline_change_detection"
+            },
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 0.79 km\u00b2 within a 0.5 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2021-10-16T19:04:15.065000Z to 2026-07-14T19:04:26.020000Z.",
+              "A baseline change detection measured 0.78% pixel difference between the oldest and newest imagery."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 37.77604577888937,
+                "longitude": -122.43969419061727
+              },
+              "radius_km": 0.5,
+              "approximate_area_sqkm": 0.79,
+              "confidence": "high"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:16:27.032006Z"
+      },
+      {
+        "analysis_id": "e83cb09a-da7c-419d-9375-37a57aa330c6",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "task": "VQA",
+        "input_image_ids": [],
+        "result": {
+          "task": "VQA",
+          "status": "missing-input",
+          "reason": "Requires at least 1 image."
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:26:01.931209Z"
+      },
+      {
+        "analysis_id": "47679823-73d3-472b-9e4f-c8740907d452",
+        "conversation_id": "7a97ae46-83ae-4989-abe1-17b8b97f5fd5",
+        "task": "VQA",
+        "input_image_ids": [
+          "99c2f115-accb-4859-b798-d44b09a011ac"
+        ],
+        "result": {
+          "task": "VQA",
+          "status": "mock",
+          "answer": "Mock VQA result. Real remote-sensing model not connected yet."
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:27:27.369791Z"
+      }
+    ],
+    "cb0d4628-13be-4c70-b735-c4e548f6d57a": [
+      {
+        "analysis_id": "7b349227-5845-4ab3-9449-b0169e2ccbfe",
+        "conversation_id": "cb0d4628-13be-4c70-b735-c4e548f6d57a",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\nBefore imagery: 2014-06-15T00:00:00Z\nAfter imagery: 2024-06-15T00:00:00Z\nThe analysis indicates approximately 15.5% surface change in the selected area.\n\nBuilt-up/development proxy:\nBefore: 10.0\nAfter: 25.0\nChange: 15.0 (increased)\n\nVegetation indicator:\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\n\nWater indicator:\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\n\nOverall interpretation:\nThe area has a increased development trend with an overall relevance of high.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2014-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 5.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2014.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": {
+              "before_asset_url": "http://example.com/2014.tif",
+              "after_asset_url": "http://example.com/2024.tif",
+              "change_percentage": 15.5,
+              "change_summary": "Mock change detected",
+              "method": null
+            },
+            "land_cover_evidence": {
+              "vegetation": {
+                "before": 40.0,
+                "after": 30.0,
+                "change": 10.0,
+                "direction": "decreased"
+              },
+              "water": {
+                "before": 5.0,
+                "after": 5.0,
+                "change": 0.0,
+                "direction": "stable"
+              },
+              "built_up": {
+                "before": 10.0,
+                "after": 25.0,
+                "change": 15.0,
+                "direction": "increased"
+              },
+              "method": null
+            },
+            "real_estate_evidence": {
+              "development_activity": "high",
+              "built_up_presence": "high",
+              "vegetation_presence": "high",
+              "water_presence": "high",
+              "development_trend": "increased",
+              "overall_relevance": "high",
+              "reasons": [
+                "Built-up proxy indicator is high (25.0).",
+                "Vegetation indicator is high (30.0).",
+                "Water indicator is high (5.0).",
+                "Overall change is 15.5% with a increased built-up trend.",
+                "Overall development relevance assessed as high."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.",
+              "A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.",
+              "Built-up proxy spectral indicator has increased over time.",
+              "Vegetation proxy spectral indicator has decreased over time.",
+              "Assessed overall development relevance is high."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "increased"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:22:36.103233Z"
+      }
+    ],
+    "79e8df86-da21-4fdf-bfd7-4ffce36df9f2": [
+      {
+        "analysis_id": "82819f55-ef00-45bc-b077-a848d9e80024",
+        "conversation_id": "79e8df86-da21-4fdf-bfd7-4ffce36df9f2",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:22:36.121748Z"
+      }
+    ],
+    "f21bab3c-d973-4c9e-9e33-74e5f341bb7b": [
+      {
+        "analysis_id": "94a25e7e-e3c6-469a-a29a-b31d84d1e954",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:22:36.143998Z"
+      },
+      {
+        "analysis_id": "183c4e16-140f-436f-b522-ae7a262393b4",
+        "conversation_id": "f21bab3c-d973-4c9e-9e33-74e5f341bb7b",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T10:22:36.156291Z"
+      }
+    ],
+    "1d7e980d-0a4f-4297-aed7-ac502a80af7d": [
+      {
+        "analysis_id": "a3ed6f23-635d-43c7-8b9f-4cc4916386c2",
+        "conversation_id": "1d7e980d-0a4f-4297-aed7-ac502a80af7d",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2021-10-16T19:04:15.065000Z and 2026-07-14T19:04:26.020000Z, the selected 0.5 km area shows direction unavailable development-related surface change.\nBefore imagery: 2021-10-16T19:04:15.065000Z\nAfter imagery: 2026-07-14T19:04:26.020000Z\nThe analysis indicates approximately 0.78% surface change in the selected area.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2021-10-16T19:04:15.065000Z",
+              "newest_date": "2026-07-14T19:04:26.020000Z",
+              "provider": "Earth Search (Sentinel-2)",
+              "oldest_cloud_cover": 0.00635,
+              "newest_cloud_cover": 0.010391,
+              "oldest_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif",
+              "newest_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif",
+              "source": "Earth Search (Sentinel-2)"
+            },
+            "change_evidence": {
+              "before_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2021/10/S2A_10SEG_20211016_1_L2A/TCI.tif",
+              "after_asset_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/S/EG/2026/7/S2A_10SEG_20260714_0_L2A/TCI.tif",
+              "change_percentage": 0.78,
+              "change_summary": "Minimal or no change detected (0.8% of sampled region).",
+              "method": "baseline_change_detection"
+            },
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 0.79 km\u00b2 within a 0.5 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2021-10-16T19:04:15.065000Z to 2026-07-14T19:04:26.020000Z.",
+              "A baseline change detection measured 0.78% pixel difference between the oldest and newest imagery."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 37.78620623881373,
+                "longitude": -122.51968839227743
+              },
+              "radius_km": 0.5,
+              "approximate_area_sqkm": 0.79,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-07T11:18:23.564010Z"
+      }
+    ],
+    "fc05d2a3-10ee-4607-86fb-92eea70089c6": [
+      {
+        "analysis_id": "6266dd5a-b2b4-4656-a78f-072a954a5ff2",
+        "conversation_id": "fc05d2a3-10ee-4607-86fb-92eea70089c6",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\nBefore imagery: 2014-06-15T00:00:00Z\nAfter imagery: 2024-06-15T00:00:00Z\nThe analysis indicates approximately 15.5% surface change in the selected area.\n\nBuilt-up/development proxy:\nBefore: 10.0\nAfter: 25.0\nChange: 15.0 (increased)\n\nVegetation indicator:\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\n\nWater indicator:\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\n\nOverall interpretation:\nThe area has a increased development trend with an overall relevance of high.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2014-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 5.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2014.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": {
+              "before_asset_url": "http://example.com/2014.tif",
+              "after_asset_url": "http://example.com/2024.tif",
+              "change_percentage": 15.5,
+              "change_summary": "Mock change detected",
+              "method": null
+            },
+            "land_cover_evidence": {
+              "vegetation": {
+                "before": 40.0,
+                "after": 30.0,
+                "change": 10.0,
+                "direction": "decreased"
+              },
+              "water": {
+                "before": 5.0,
+                "after": 5.0,
+                "change": 0.0,
+                "direction": "stable"
+              },
+              "built_up": {
+                "before": 10.0,
+                "after": 25.0,
+                "change": 15.0,
+                "direction": "increased"
+              },
+              "method": null
+            },
+            "real_estate_evidence": {
+              "development_activity": "high",
+              "built_up_presence": "high",
+              "vegetation_presence": "high",
+              "water_presence": "high",
+              "development_trend": "increased",
+              "overall_relevance": "high",
+              "reasons": [
+                "Built-up proxy indicator is high (25.0).",
+                "Vegetation indicator is high (30.0).",
+                "Water indicator is high (5.0).",
+                "Overall change is 15.5% with a increased built-up trend.",
+                "Overall development relevance assessed as high."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.",
+              "A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.",
+              "Built-up proxy spectral indicator has increased over time.",
+              "Vegetation proxy spectral indicator has decreased over time.",
+              "Assessed overall development relevance is high."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "increased"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:24:40.731013Z"
+      }
+    ],
+    "5e7b7c2f-ced0-407a-86ec-cd5776c0604e": [
+      {
+        "analysis_id": "767b23f1-06de-453d-8436-8686c17c8cdd",
+        "conversation_id": "5e7b7c2f-ced0-407a-86ec-cd5776c0604e",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:24:40.750385Z"
+      }
+    ],
+    "8103ed2c-103c-4256-9572-cf45a7c81050": [
+      {
+        "analysis_id": "6c3153d9-2406-4e0a-a696-601974f1f5a0",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:24:40.767400Z"
+      },
+      {
+        "analysis_id": "d12b4b55-9508-447a-8d3a-06af8315f863",
+        "conversation_id": "8103ed2c-103c-4256-9572-cf45a7c81050",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:24:40.777933Z"
+      }
+    ],
+    "8850bd42-b38f-4c4e-9459-609c0f8af417": [
+      {
+        "analysis_id": "ad0021f0-5c0e-40c7-8da2-9a09146a6069",
+        "conversation_id": "8850bd42-b38f-4c4e-9459-609c0f8af417",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\nBefore imagery: 2014-06-15T00:00:00Z\nAfter imagery: 2024-06-15T00:00:00Z\nThe analysis indicates approximately 15.5% surface change in the selected area.\n\nBuilt-up/development proxy:\nBefore: 10.0\nAfter: 25.0\nChange: 15.0 (increased)\n\nVegetation indicator:\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\n\nWater indicator:\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\n\nOverall interpretation:\nThe area has a increased development trend with an overall relevance of high.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2014-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 5.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2014.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": {
+              "before_asset_url": "http://example.com/2014.tif",
+              "after_asset_url": "http://example.com/2024.tif",
+              "change_percentage": 15.5,
+              "change_summary": "Mock change detected",
+              "method": null
+            },
+            "land_cover_evidence": {
+              "vegetation": {
+                "before": 40.0,
+                "after": 30.0,
+                "change": 10.0,
+                "direction": "decreased"
+              },
+              "water": {
+                "before": 5.0,
+                "after": 5.0,
+                "change": 0.0,
+                "direction": "stable"
+              },
+              "built_up": {
+                "before": 10.0,
+                "after": 25.0,
+                "change": 15.0,
+                "direction": "increased"
+              },
+              "method": null
+            },
+            "real_estate_evidence": {
+              "development_activity": "high",
+              "built_up_presence": "high",
+              "vegetation_presence": "high",
+              "water_presence": "high",
+              "development_trend": "increased",
+              "overall_relevance": "high",
+              "reasons": [
+                "Built-up proxy indicator is high (25.0).",
+                "Vegetation indicator is high (30.0).",
+                "Water indicator is high (5.0).",
+                "Overall change is 15.5% with a increased built-up trend.",
+                "Overall development relevance assessed as high."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.",
+              "A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.",
+              "Built-up proxy spectral indicator has increased over time.",
+              "Vegetation proxy spectral indicator has decreased over time.",
+              "Assessed overall development relevance is high."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "increased"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:30:01.579072Z"
+      }
+    ],
+    "58692823-f1b4-435a-9469-1cf49287f737": [
+      {
+        "analysis_id": "48a18872-d2df-4fd0-8576-3fd60d06764b",
+        "conversation_id": "58692823-f1b4-435a-9469-1cf49287f737",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:30:01.612133Z"
+      }
+    ],
+    "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1": [
+      {
+        "analysis_id": "19c374ed-9c31-4877-8669-2f24718c21af",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:30:01.631441Z"
+      },
+      {
+        "analysis_id": "ca1f77eb-e12b-4329-885c-2992de4cec7b",
+        "conversation_id": "0d8a03d0-ee00-421b-bfc3-97beaa50b2b1",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:30:01.642996Z"
+      }
+    ],
+    "e92d855c-9071-4863-8b31-87d4bc90e825": [
+      {
+        "analysis_id": "2ea4f059-8ee3-43ca-b18b-2aebe81d3bf9",
+        "conversation_id": "e92d855c-9071-4863-8b31-87d4bc90e825",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\nBefore imagery: 2014-06-15T00:00:00Z\nAfter imagery: 2024-06-15T00:00:00Z\nThe analysis indicates approximately 15.5% surface change in the selected area.\n\nBuilt-up/development proxy:\nBefore: 10.0\nAfter: 25.0\nChange: 15.0 (increased)\n\nVegetation indicator:\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\n\nWater indicator:\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\n\nOverall interpretation:\nThe area has a increased development trend with an overall relevance of high.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2014-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 5.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2014.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": {
+              "before_asset_url": "http://example.com/2014.tif",
+              "after_asset_url": "http://example.com/2024.tif",
+              "change_percentage": 15.5,
+              "change_summary": "Mock change detected",
+              "method": null
+            },
+            "land_cover_evidence": {
+              "vegetation": {
+                "before": 40.0,
+                "after": 30.0,
+                "change": 10.0,
+                "direction": "decreased"
+              },
+              "water": {
+                "before": 5.0,
+                "after": 5.0,
+                "change": 0.0,
+                "direction": "stable"
+              },
+              "built_up": {
+                "before": 10.0,
+                "after": 25.0,
+                "change": 15.0,
+                "direction": "increased"
+              },
+              "method": null
+            },
+            "real_estate_evidence": {
+              "development_activity": "high",
+              "built_up_presence": "high",
+              "vegetation_presence": "high",
+              "water_presence": "high",
+              "development_trend": "increased",
+              "overall_relevance": "high",
+              "reasons": [
+                "Built-up proxy indicator is high (25.0).",
+                "Vegetation indicator is high (30.0).",
+                "Water indicator is high (5.0).",
+                "Overall change is 15.5% with a increased built-up trend.",
+                "Overall development relevance assessed as high."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.",
+              "A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.",
+              "Built-up proxy spectral indicator has increased over time.",
+              "Vegetation proxy spectral indicator has decreased over time.",
+              "Assessed overall development relevance is high."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "increased"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:34:35.271119Z"
+      }
+    ],
+    "70abb793-607b-466c-ba0f-c958ab456253": [
+      {
+        "analysis_id": "0ea62dc7-0d58-436e-a95f-bd251bffad0a",
+        "conversation_id": "70abb793-607b-466c-ba0f-c958ab456253",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:34:35.290377Z"
+      }
+    ],
+    "139fe564-234d-4317-97b1-df5b930c0ac1": [
+      {
+        "analysis_id": "369b2cf0-b48b-4a73-ae31-e57cf9ee08a1",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:34:35.309023Z"
+      },
+      {
+        "analysis_id": "7ea4414e-5478-4e54-baae-6b7d24e1e779",
+        "conversation_id": "139fe564-234d-4317-97b1-df5b930c0ac1",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:34:35.320517Z"
+      }
+    ],
+    "6af8eb12-0414-4711-9012-00e7786b9fc6": [
+      {
+        "analysis_id": "f203c1d8-03bb-4c4e-bfb0-c23f71aa14d6",
+        "conversation_id": "6af8eb12-0414-4711-9012-00e7786b9fc6",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Between 2014-06-15T00:00:00Z and 2024-06-15T00:00:00Z, the selected 2.0 km area shows increased development-related surface change.\nBefore imagery: 2014-06-15T00:00:00Z\nAfter imagery: 2024-06-15T00:00:00Z\nThe analysis indicates approximately 15.5% surface change in the selected area.\n\nBuilt-up/development proxy:\nBefore: 10.0\nAfter: 25.0\nChange: 15.0 (increased)\n\nVegetation indicator:\nBefore: 40.0, After: 30.0, Change: 10.0 (decreased)\n\nWater indicator:\nBefore: 5.0, After: 5.0, Change: 0.0 (stable)\n\nOverall interpretation:\nThe area has a increased development trend with an overall relevance of high.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2014-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 5.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2014.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": {
+              "before_asset_url": "http://example.com/2014.tif",
+              "after_asset_url": "http://example.com/2024.tif",
+              "change_percentage": 15.5,
+              "change_summary": "Mock change detected",
+              "method": null
+            },
+            "land_cover_evidence": {
+              "vegetation": {
+                "before": 40.0,
+                "after": 30.0,
+                "change": 10.0,
+                "direction": "decreased"
+              },
+              "water": {
+                "before": 5.0,
+                "after": 5.0,
+                "change": 0.0,
+                "direction": "stable"
+              },
+              "built_up": {
+                "before": 10.0,
+                "after": 25.0,
+                "change": 15.0,
+                "direction": "increased"
+              },
+              "method": null
+            },
+            "real_estate_evidence": {
+              "development_activity": "high",
+              "built_up_presence": "high",
+              "vegetation_presence": "high",
+              "water_presence": "high",
+              "development_trend": "increased",
+              "overall_relevance": "high",
+              "reasons": [
+                "Built-up proxy indicator is high (25.0).",
+                "Vegetation indicator is high (30.0).",
+                "Water indicator is high (5.0).",
+                "Overall change is 15.5% with a increased built-up trend.",
+                "Overall development relevance assessed as high."
+              ]
+            },
+            "limitations": [
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 2 historical imagery records for this location.",
+              "Imagery spans from 2014-06-15T00:00:00Z to 2024-06-15T00:00:00Z.",
+              "A baseline change detection measured 15.5% pixel difference between the oldest and newest imagery.",
+              "Built-up proxy spectral indicator has increased over time.",
+              "Vegetation proxy spectral indicator has decreased over time.",
+              "Assessed overall development relevance is high."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Moderate",
+              "development_direction": "increased"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:38:27.381120Z"
+      }
+    ],
+    "6331e4aa-41f3-44f5-b59b-b911cd7012ac": [
+      {
+        "analysis_id": "60641dd3-2111-4f30-81b7-9c2fd8ea5f3b",
+        "conversation_id": "6331e4aa-41f3-44f5-b59b-b911cd7012ac",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:38:27.400167Z"
+      }
+    ],
+    "fbfdb9b1-179a-4691-9849-f17243f2e572": [
+      {
+        "analysis_id": "08b12ef0-4c25-40fa-8ce6-dc099036ccca",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:38:27.418065Z"
+      },
+      {
+        "analysis_id": "9427358b-9bf1-4e89-96a1-92f0b47f2c93",
+        "conversation_id": "fbfdb9b1-179a-4691-9849-f17243f2e572",
+        "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+        "input_image_ids": [],
+        "result": {
+          "task": "LOCATION_DEVELOPMENT_ANALYSIS",
+          "status": "success",
+          "answer": "Comparable before-and-after imagery dates are not available for this analysis.\nA reliable quantitative change percentage could not be calculated from the available imagery.\n\nOverall interpretation:\nThe area has a unavailable development trend with an overall relevance of unavailable.\nThis is a satellite-derived land-use/development proxy and should not be interpreted as an exact measurement of constructed property area.\nAdditional Limitations:\n- Only one usable imagery asset found. Comparison analysis requires at least two.\n- This is a satellite-derived land-use proxy, NOT a financial or market analysis.\n- Does not predict exact property prices, market value, ROI, or investment returns.",
+          "evidence": {
+            "imagery_evidence": {
+              "oldest_date": "2024-06-15T00:00:00Z",
+              "newest_date": "2024-06-15T00:00:00Z",
+              "provider": "Sentinel-2 / Earth Search",
+              "oldest_cloud_cover": 2.0,
+              "newest_cloud_cover": 2.0,
+              "oldest_asset_url": "http://example.com/2024.tif",
+              "newest_asset_url": "http://example.com/2024.tif",
+              "source": "Sentinel-2 / Earth Search"
+            },
+            "change_evidence": null,
+            "land_cover_evidence": null,
+            "real_estate_evidence": {
+              "development_activity": "unavailable",
+              "built_up_presence": "unavailable",
+              "vegetation_presence": "unavailable",
+              "water_presence": "unavailable",
+              "development_trend": "unavailable",
+              "overall_relevance": "unavailable",
+              "reasons": [
+                "Insufficient spectral data to compute relevance indicators."
+              ]
+            },
+            "limitations": [
+              "Only one usable imagery asset found. Comparison analysis requires at least two.",
+              "This is a satellite-derived land-use proxy, NOT a financial or market analysis.",
+              "Does not predict exact property prices, market value, ROI, or investment returns."
+            ],
+            "evidence_summary": [
+              "Analyzed an approximate area of 12.57 km\u00b2 within a 2.0 km radius.",
+              "Analysis confidence is high based on image quality/cloud cover.",
+              "Found 1 historical imagery records for this location."
+            ],
+            "analysis_context": {
+              "center": {
+                "latitude": 30.43,
+                "longitude": 74.89
+              },
+              "radius_km": 2.0,
+              "approximate_area_sqkm": 12.57,
+              "confidence": "high",
+              "baseline_confidence": "Low",
+              "development_direction": "unavailable"
+            }
+          }
+        },
+        "confidence": null,
+        "evidence": null,
+        "timestamp": "2026-09-16T10:38:27.428167Z"
+      }
+    ]
+  }
+}
