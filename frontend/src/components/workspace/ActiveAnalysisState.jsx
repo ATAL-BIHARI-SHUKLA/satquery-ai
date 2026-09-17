@@ -10,6 +10,8 @@ const mapContainerStyle = {
   borderRadius: "0.75rem",
 };
 
+const libraries = ["places"];
+
 export default function ActiveAnalysisState({
   messages,
   attachedImages,
@@ -27,8 +29,8 @@ export default function ActiveAnalysisState({
   
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
-    libraries: ["places"],
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "",
+    libraries,
   });
 
   const selectedImgObj = attachedImages.find((img) => img.id === selectedImage);

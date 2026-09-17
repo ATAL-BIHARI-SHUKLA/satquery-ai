@@ -3,7 +3,7 @@ import { api } from "../services/api";
 import ConversationSidebar from "../components/workspace/ConversationSidebar";
 import EmptyAnalysisState from "../components/workspace/EmptyAnalysisState";
 import ActiveAnalysisState from "../components/workspace/ActiveAnalysisState";
-import WorkspaceNavbar from "../components/workspace/WorkspaceNavbar";
+
 
 export default function AnalysisWorkspace({
   navigateTo,
@@ -215,12 +215,7 @@ export default function AnalysisWorkspace({
 
       {/* Main Workspace */}
       <div className="flex flex-col flex-1 h-full relative overflow-hidden">
-        {/* Header */}
-        <WorkspaceNavbar
-          selectedConversation={selectedConversation}
-          setIsMobileSidebarOpen={setIsMobileSidebarOpen}
-          navigateTo={navigateTo}
-        />
+
 
         {/* Content Area */}
         <div className="flex-1 overflow-hidden relative">
