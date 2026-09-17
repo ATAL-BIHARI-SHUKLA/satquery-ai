@@ -1,0 +1,13 @@
+@echo off
+echo Starting SatQuery AI Project...
+
+echo Starting Frontend...
+start cmd /k "cd frontend && npm run dev"
+
+echo Starting Backend...
+start cmd /k "cd backend && .\.venv\Scripts\Activate && uvicorn app.main:app --reload"
+
+echo Starting RS-LLaVA Server...
+start cmd /k "cd rs-llava-server && ..\rs_llava_env\Scripts\activate && uvicorn server:app --host 0.0.0.0 --port 8001"
+
+echo All services are starting up! You can minimize these windows but don't close them.

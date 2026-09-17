@@ -47,3 +47,11 @@
 
 3. सर्वर को रन करने के लिए:
    uvicorn server:app --host 0.0.0.0 --port 8001
+
+# shortcut to start all services (Frontend + Backend + LLM Server)
+
+1. सबसे आसान तरीका (बिना टर्मिनल के):
+   प्रोजेक्ट फोल्डर (`satquery-ai`) में जाएँ और `start_all.bat` फाइल पर डबल-क्लिक करें।
+
+2. या फिर टर्मिनल (PowerShell) से रन करने के लिए (मेन फोल्डर में रहते हुए):
+   .\start_all.bat
