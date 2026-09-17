@@ -1,13 +1,32 @@
 import { useRef, useState, useCallback, useEffect } from "react";
 import { useDebounce } from "use-debounce";
 import { api } from "../../services/api";
-import {
-  GoogleMap,
-  useJsApiLoader,
-  Marker,
-  Autocomplete,
-  Circle,
-} from "@react-google-maps/api";
+import { MapContainer, TileLayer, Marker as LeafletMarker, Circle as LeafletCircle, useMapEvents, useMap } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+
+// Fix for default marker icon in leaflet
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+});
+
+function MapEventsHandler({ onMapClick }) {
+  useMapEvents({
+    click: onMapClick,
+  });
+  return null;
+}
+
+function MapUpdater({ center }) {
+  const map = useMap();
+  useEffect(() => {
+    map.setView(center, map.getZoom());
+  }, [center, map]);
+  return null;
+}
 
 const containerStyle = {
   width: "100%",
@@ -19,11 +38,6 @@ const defaultCenter = { lat: 37.7749, lng: -122.4194 };
 const libraries = ["places"];
 
 export default function LandingWorkspace({ navigateTo }) {
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "",
-    libraries,
-  });
   const fileInputRef = useRef(null);
   const autocompleteRef = useRef(null);
   const [file, setFile] = useState(null);
@@ -32,6 +46,9 @@ export default function LandingWorkspace({ navigateTo }) {
   const [resultMessage, setResultMessage] = useState("");
   const [mode, setMode] = useState("location");
   const [locationSearch, setLocationSearch] = useState("");
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isSearching, setIsSearching] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [mapCenter, setMapCenter] = useState(defaultCenter);
   const [debouncedLocationSearch] = useDebounce(locationSearch, 800);
@@ -47,68 +64,59 @@ export default function LandingWorkspace({ navigateTo }) {
     }
   }, [debouncedLocationSearch]);
 
-  const handleSearchLocation = (searchQuery = locationSearch) => {
+  const searchNominatim = async (searchQuery = locationSearch) => {
     if (!searchQuery.trim()) return;
-
-    if (window.google && window.google.maps && window.google.maps.Geocoder) {
-      const geocoder = new window.google.maps.Geocoder();
-      geocoder.geocode({ address: searchQuery }, (results, status) => {
-        if (status === "OK" && results[0]) {
-          const location = results[0].geometry.location;
-          const lat = location.lat();
-          const lng = location.lng();
-          setSelectedLocation((prev) => ({
-            lat,
-            lng,
-            locationName: results[0].formatted_address,
-            radiusKm: prev?.radiusKm || 2,
-          }));
-          setMapCenter({ lat, lng });
-        }
-      });
+    setIsSearching(true);
+    try {
+      const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(searchQuery)}&limit=5`);
+      const data = await response.json();
+      setSuggestions(data);
+      setShowSuggestions(true);
+    } catch (error) {
+      console.error("Nominatim search error:", error);
+    } finally {
+      setIsSearching(false);
     }
   };
 
+  const handleSearchLocation = (searchQuery = locationSearch) => {
+    searchNominatim(searchQuery);
+  };
+
+  const handleSelectSuggestion = (suggestion) => {
+    const lat = parseFloat(suggestion.lat);
+    const lng = parseFloat(suggestion.lon);
+    setSelectedLocation((prev) => ({
+      lat,
+      lng,
+      locationName: suggestion.display_name,
+      radiusKm: prev?.radiusKm || 2,
+    }));
+    setMapCenter({ lat, lng });
+    setLocationSearch(suggestion.display_name);
+    setShowSuggestions(false);
+  };
+
   const handlePlaceChanged = () => {
-    if (autocompleteRef.current) {
-      const place = autocompleteRef.current.getPlace();
-      if (place && place.geometry) {
-        const lat = place.geometry.location.lat();
-        const lng = place.geometry.location.lng();
-        const name =
-          place.formatted_address || place.name || "Selected Location";
+    // Deprecated for google maps, kept for compatibility if needed.
+  };
+
+  const handleMapClick = useCallback(async (e) => {
+    if (e.latlng) {
+      const lat = e.latlng.lat;
+      const lng = e.latlng.lng;
+      try {
+        const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+        const data = await response.json();
+        const name = data.display_name || "Selected Location";
         setSelectedLocation((prev) => ({
           lat,
           lng,
           locationName: name,
           radiusKm: prev?.radiusKm || 2,
         }));
-        setMapCenter({ lat, lng });
         setLocationSearch(name);
-      }
-    }
-  };
-
-  const handleMapClick = useCallback((e) => {
-    if (e.latLng) {
-      const lat = e.latLng.lat();
-      const lng = e.latLng.lng();
-      if (window.google && window.google.maps && window.google.maps.Geocoder) {
-        const geocoder = new window.google.maps.Geocoder();
-        geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-          let name = "Selected Location";
-          if (status === "OK" && results[0]) {
-            name = results[0].formatted_address;
-          }
-          setSelectedLocation((prev) => ({
-            lat,
-            lng,
-            locationName: name,
-            radiusKm: prev?.radiusKm || 2,
-          }));
-          setLocationSearch(name);
-        });
-      } else {
+      } catch (error) {
         setSelectedLocation((prev) => ({
           lat,
           lng,
@@ -122,28 +130,25 @@ export default function LandingWorkspace({ navigateTo }) {
   const handleFetchLiveLocation = () => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
+        async (position) => {
           const { latitude, longitude } = position.coords;
           const lat = latitude;
           const lng = longitude;
           setMapCenter({ lat, lng });
           
-          if (window.google && window.google.maps && window.google.maps.Geocoder) {
-            const geocoder = new window.google.maps.Geocoder();
-            geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-              let name = "Current Location";
-              if (status === "OK" && results[0]) {
-                name = results[0].formatted_address;
-              }
-              setSelectedLocation((prev) => ({
-                lat,
-                lng,
-                locationName: name,
-                radiusKm: prev?.radiusKm || 2,
-              }));
-              setLocationSearch(name);
-            });
-          } else {
+          try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+            const data = await response.json();
+            const name = data.display_name || "Current Location";
+            
+            setSelectedLocation((prev) => ({
+              lat,
+              lng,
+              locationName: name,
+              radiusKm: prev?.radiusKm || 2,
+            }));
+            setLocationSearch(name);
+          } catch (error) {
             setSelectedLocation((prev) => ({
               lat,
               lng,
@@ -319,29 +324,42 @@ export default function LandingWorkspace({ navigateTo }) {
               <div className="flex flex-col gap-4">
                 {/* Location Search Input */}
                 <div className="flex gap-3">
-                  <div className="flex-1">
-                    {isLoaded ? (
-                      <Autocomplete
-                        onLoad={(ref) => (autocompleteRef.current = ref)}
-                        onPlaceChanged={handlePlaceChanged}
-                      >
-                        <input
-                          type="text"
-                          value={locationSearch}
-                          onChange={(e) => setLocationSearch(e.target.value)}
-                          placeholder="Enter a location, address, or coordinates..."
-                          className="w-full rounded-xl border border-border-subtle bg-bg-base p-3.5 text-sm text-text-main placeholder:text-text-muted outline-none focus:border-primary/50 focus:bg-primary/[0.02]"
-                        />
-                      </Autocomplete>
-                    ) : (
+                  <div className="flex-1 relative">
                       <input
                         type="text"
                         value={locationSearch}
-                        onChange={(e) => setLocationSearch(e.target.value)}
+                        onChange={(e) => {
+                          setLocationSearch(e.target.value);
+                          setShowSuggestions(true);
+                        }}
+                        onFocus={() => {
+                          if (suggestions.length > 0) setShowSuggestions(true);
+                        }}
+                        onBlur={() => {
+                          setTimeout(() => setShowSuggestions(false), 200);
+                        }}
                         placeholder="Enter a location, address, or coordinates..."
                         className="w-full rounded-xl border border-border-subtle bg-bg-base p-3.5 text-sm text-text-main placeholder:text-text-muted outline-none focus:border-primary/50 focus:bg-primary/[0.02]"
                       />
-                    )}
+                      {showSuggestions && (suggestions.length > 0 || isSearching) && (
+                        <div className="absolute top-full left-0 right-0 mt-2 bg-surface border border-border-subtle rounded-xl shadow-xl overflow-hidden z-50 max-h-60 overflow-y-auto">
+                          {isSearching ? (
+                            <div className="px-4 py-3 text-sm text-text-muted">Searching...</div>
+                          ) : (
+                            <ul>
+                              {suggestions.map((item, index) => (
+                                <li 
+                                  key={item.place_id || index}
+                                  className="px-4 py-3 hover:bg-white/5 cursor-pointer text-sm text-text-main border-b border-border-subtle/50 last:border-0 truncate"
+                                  onClick={() => handleSelectSuggestion(item)}
+                                >
+                                  {item.display_name}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      )}
                   </div>
                   <button
                     onClick={handleSearchLocation}
@@ -362,48 +380,36 @@ export default function LandingWorkspace({ navigateTo }) {
                 </div>
 
                 {/* Map Area */}
-                <div className="relative h-[400px] w-full rounded-2xl border border-dashed border-border-subtle bg-bg-base flex items-center justify-center overflow-hidden">
-                  {isLoaded ? (
-                    <GoogleMap
-                      mapContainerStyle={containerStyle}
+                <div className="relative h-[400px] w-full rounded-2xl border border-dashed border-border-subtle bg-bg-base flex items-center justify-center overflow-hidden z-0">
+                    <MapContainer
                       center={mapCenter}
                       zoom={selectedLocation ? 13 : 3}
-                      onClick={handleMapClick}
-                      options={{
-                        disableDefaultUI: false,
-                        zoomControl: true,
-                        streetViewControl: false,
-                        mapTypeControl: true,
-                        fullscreenControl: true,
-                        mapTypeId: "hybrid",
-                      }}
+                      style={containerStyle}
                     >
+                      <TileLayer
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                      />
+                      <MapEventsHandler onMapClick={handleMapClick} />
+                      <MapUpdater center={mapCenter} />
                       {selectedLocation && (
                         <>
-                          <Marker position={selectedLocation} />
-                          <Circle
-                            center={selectedLocation}
+                          <LeafletMarker position={[selectedLocation.lat, selectedLocation.lng]} />
+                          <LeafletCircle
+                            center={[selectedLocation.lat, selectedLocation.lng]}
                             radius={(selectedLocation.radiusKm || 2) * 1000}
-                            options={{
+                            pathOptions={{
                               fillColor: "#10b981",
                               fillOpacity: 0.15,
-                              strokeColor: "#10b981",
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
+                              color: "#10b981",
+                              weight: 2,
                             }}
                           />
                         </>
                       )}
-                    </GoogleMap>
-                  ) : (
-                    <div className="text-center z-10">
-                      <p className="text-sm font-medium text-text-muted">
-                        Loading map...
-                      </p>
-                    </div>
-                  )}
-                  {!selectedLocation && isLoaded && (
-                    <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-black/20">
+                    </MapContainer>
+                  {!selectedLocation && (
+                    <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-black/20 z-[1000]">
                       <div className="bg-black/60 px-4 py-2 rounded-lg backdrop-blur-sm border border-border-subtle text-text-main text-sm font-medium shadow-xl">
                         Click anywhere on the map or search to select a location
                       </div>

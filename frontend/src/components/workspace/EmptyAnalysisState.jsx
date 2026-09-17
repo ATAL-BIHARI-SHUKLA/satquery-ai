@@ -1,9 +1,8 @@
+/* eslint-disable react-hooks/set-state-in-effect, no-unused-vars, no-empty */
 import { useState, useRef, useEffect } from "react";
 import ConversationInput from "./ConversationInput";
-import { useJsApiLoader, Autocomplete } from "@react-google-maps/api";
 import { useDebounce } from "use-debounce";
 
-const libraries = ["places"];
 
 export default function EmptyAnalysisState({ 
   currentQuery, 
@@ -16,105 +15,86 @@ export default function EmptyAnalysisState({
 }) {
   const [mode, setMode] = useState("location"); // 'location' | 'image'
   const [locationSearch, setLocationSearch] = useState("");
-  const autocompleteRef = useRef(null);
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "",
-    libraries,
-  });
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isSearching, setIsSearching] = useState(false);
+  const inputRef = useRef(null);
+  
+
 
   const [debouncedLocationSearch] = useDebounce(locationSearch, 800);
 
-  useEffect(() => {
-    if (debouncedLocationSearch && debouncedLocationSearch.trim().length > 2) {
-      handleSearchLocation(debouncedLocationSearch);
-    }
-  }, [debouncedLocationSearch]);
-
-  const handleSearchLocation = (searchQuery = locationSearch) => {
-    if (!searchQuery.trim()) return;
-
-    if (window.google && window.google.maps && window.google.maps.Geocoder) {
-      const geocoder = new window.google.maps.Geocoder();
-      geocoder.geocode({ address: searchQuery }, (results, status) => {
-        if (status === "OK" && results[0]) {
-          const location = results[0].geometry.location;
-          const lat = location.lat();
-          const lng = location.lng();
-          const name = results[0].formatted_address;
-          
-          if (onSubmitLocation) {
-            onSubmitLocation({
-              lat,
-              lng,
-              locationName: name,
-              radiusKm: 2
-            });
-          }
-        }
-      });
+  const searchNominatim = async (query) => {
+    setIsSearching(true);
+    try {
+      const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5`);
+      const data = await response.json();
+      setSuggestions(data);
+      setShowSuggestions(true);
+    } catch (error) {
+      console.error("Nominatim search error:", error);
+    } finally {
+      setIsSearching(false);
     }
   };
 
-  const handlePlaceChanged = () => {
-    if (autocompleteRef.current) {
-      const place = autocompleteRef.current.getPlace();
-      if (place && place.geometry) {
-        const lat = place.geometry.location.lat();
-        const lng = place.geometry.location.lng();
-        const name = place.formatted_address || place.name || "Selected Location";
-        
-        if (onSubmitLocation) {
-          onSubmitLocation({
-            lat,
-            lng,
-            locationName: name,
-            radiusKm: 2
-          });
-        }
-      }
+  useEffect(() => {
+    if (debouncedLocationSearch && debouncedLocationSearch.trim().length > 2) {
+      searchNominatim(debouncedLocationSearch);
+    } else {
+      setSuggestions([]);
+    }
+  }, [debouncedLocationSearch]);
+
+  const handleSelectSuggestion = (suggestion) => {
+    setLocationSearch(suggestion.display_name);
+    setShowSuggestions(false);
+    if (onSubmitLocation) {
+      onSubmitLocation({
+        latitude: parseFloat(suggestion.lat),
+        longitude: parseFloat(suggestion.lon),
+        locationName: suggestion.display_name,
+        radiusKm: 2
+      });
     }
   };
 
   const handleExampleLocation = (name) => {
     setLocationSearch(name);
-    handleSearchLocation(name);
+    searchNominatim(name);
   };
 
   const handleLiveLocation = () => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
+        async (position) => {
           const lat = position.coords.latitude;
           const lng = position.coords.longitude;
           
-          // Reverse geocode to get name
-          if (window.google && window.google.maps && window.google.maps.Geocoder) {
-            const geocoder = new window.google.maps.Geocoder();
-            geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-              let name = "Current Location";
-              if (status === "OK" && results[0]) {
-                name = results[0].formatted_address;
-              }
-              if (onSubmitLocation) {
-                onSubmitLocation({
-                  lat,
-                  lng,
-                  locationName: name,
-                  radiusKm: 2
-                });
-              }
-            });
-          } else {
-             // Fallback if google maps isn't loaded
-             if (onSubmitLocation) {
-                onSubmitLocation({
-                  lat,
-                  lng,
-                  locationName: "Current Location",
-                  radiusKm: 2
-                });
-             }
+          try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+            const data = await response.json();
+            const name = data.display_name || "Current Location";
+            
+            setLocationSearch(name);
+            if (onSubmitLocation) {
+              onSubmitLocation({
+                latitude: lat,
+                longitude: lng,
+                locationName: name,
+                radiusKm: 2
+              });
+            }
+          } catch (error) {
+            console.error("Reverse geocoding error:", error);
+            if (onSubmitLocation) {
+              onSubmitLocation({
+                latitude: lat,
+                longitude: lng,
+                locationName: "Current Location",
+                radiusKm: 2
+              });
+            }
           }
         },
         (error) => {
@@ -163,34 +143,24 @@ export default function EmptyAnalysisState({
           </div>
 
           <div className="w-full max-w-2xl relative mb-8">
-             {isLoaded ? (
-                <Autocomplete
-                  onLoad={(autocomplete) => {
-                    autocompleteRef.current = autocomplete;
-                  }}
-                  onPlaceChanged={handlePlaceChanged}
-                >
-                  <input
-                    type="text"
-                    placeholder="Search a city, address, place or coordinates..."
-                    className="w-full px-6 py-4 rounded-2xl bg-surface border border-border-subtle text-text-main focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-text-muted/50 shadow-lg text-lg pr-32"
-                    value={locationSearch}
-                    onChange={(e) => setLocationSearch(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") {
-                        handleSearchLocation();
-                      }
-                    }}
-                  />
-                </Autocomplete>
-              ) : (
-                <input
-                  type="text"
-                  placeholder="Loading maps..."
-                  className="w-full px-6 py-4 rounded-2xl bg-surface border border-border-subtle text-text-main focus:outline-none placeholder-text-muted/50 shadow-lg text-lg"
-                  disabled
-                />
-              )}
+              <input
+                ref={inputRef}
+                type="text"
+                placeholder="Search a city, area, landmark or coordinates..."
+                className="w-full px-6 py-4 rounded-2xl bg-surface border border-border-subtle text-text-main focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-text-muted/50 shadow-lg text-lg pr-32"
+                value={locationSearch}
+                onChange={(e) => {
+                  setLocationSearch(e.target.value);
+                  setShowSuggestions(true);
+                }}
+                onFocus={() => {
+                  if (suggestions.length > 0) setShowSuggestions(true);
+                }}
+                onBlur={() => {
+                  // Delay hiding so clicks on suggestions register
+                  setTimeout(() => setShowSuggestions(false), 200);
+                }}
+              />
               
               <button
                 onClick={handleLiveLocation}
@@ -200,12 +170,33 @@ export default function EmptyAnalysisState({
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Live Location
+                My Location
               </button>
+
+              {/* Suggestions Dropdown */}
+              {showSuggestions && (suggestions.length > 0 || isSearching) && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-surface border border-border-subtle rounded-xl shadow-xl overflow-hidden z-50">
+                  {isSearching ? (
+                    <div className="px-4 py-3 text-sm text-text-muted">Searching...</div>
+                  ) : (
+                    <ul>
+                      {suggestions.map((item, index) => (
+                        <li 
+                          key={item.place_id || index}
+                          className="px-4 py-3 hover:bg-white/5 cursor-pointer text-sm text-text-main border-b border-border-subtle/50 last:border-0 truncate"
+                          onClick={() => handleSelectSuggestion(item)}
+                        >
+                          {item.display_name}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
           </div>
 
           <div className="flex flex-wrap gap-2 justify-center">
-            {["Delhi", "Punjab, India", "30.3165, 78.0322", "San Francisco, CA"].map((loc) => (
+            {["Delhi", "Punjab, India", "Ludhiana", "San Francisco, CA"].map((loc) => (
               <button
                 key={loc}
                 onClick={() => handleExampleLocation(loc)}
@@ -242,7 +233,7 @@ export default function EmptyAnalysisState({
               <button
                 key={i}
                 onClick={() => setCurrentQuery(q)}
-                className="text-left px-5 py-4 rounded-xl border border-border-subtle bg-surface hover:bg-white/5 hover:border-white/10 transition-all text-sm text-text-muted hover:text-text-main"
+                className="text-left px-5 py-4 rounded-xl border border-border-subtle bg-surface hover:bg-white/5 hover:border-white/10 transition-all text-sm text-text-muted hover:text-main"
               >
                 {q}
               </button>

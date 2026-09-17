@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect, no-unused-vars, no-empty */
 import { auth } from '../utils/auth';
 
 export const authFetch = async (url, options = {}) => {

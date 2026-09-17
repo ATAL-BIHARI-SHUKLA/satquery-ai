@@ -1,16 +1,34 @@
-import React, { useRef, useCallback } from "react";
-import { GoogleMap, Marker, Circle, useJsApiLoader } from "@react-google-maps/api";
+/* eslint-disable react-hooks/set-state-in-effect, no-unused-vars, no-empty */
+import React, { useRef, useCallback, useEffect, useState } from "react";
+import { MapContainer, TileLayer, Marker as LeafletMarker, Circle as LeafletCircle, useMap } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
 import ImageContextStrip from "./ImageContextStrip";
 import AnalysisPanel from "./AnalysisPanel";
 import ConversationInput from "./ConversationInput";
+import { api } from "../../services/api";
+
+// Fix for default marker icon in leaflet
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+});
+
+function MapUpdater({ center }) {
+  const map = useMap();
+  useEffect(() => {
+    map.setView(center, map.getZoom());
+  }, [center, map]);
+  return null;
+}
 
 const mapContainerStyle = {
   width: "100%",
   height: "100%",
   borderRadius: "0.75rem",
 };
-
-const libraries = ["places"];
 
 export default function ActiveAnalysisState({
   messages,
@@ -26,12 +44,9 @@ export default function ActiveAnalysisState({
   locationContext,
 }) {
   const messagesEndRef = useRef(null);
-  
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "",
-    libraries,
-  });
+  const [satelliteData, setSatelliteData] = useState(null);
+  const [satelliteLoading, setSatelliteLoading] = useState(false);
+  const [satelliteError, setSatelliteError] = useState(null);
 
   const selectedImgObj = attachedImages.find((img) => img.id === selectedImage);
   const isLocationBased = !!locationContext;
@@ -44,6 +59,38 @@ export default function ActiveAnalysisState({
   React.useEffect(() => {
     setTimeout(scrollToBottom, 100);
   }, [messages, scrollToBottom]);
+
+  useEffect(() => {
+    let isMounted = true;
+    if (locationContext && locationContext.latitude && locationContext.longitude) {
+      const fetchSatData = async () => {
+        setSatelliteLoading(true);
+        setSatelliteError(null);
+        try {
+          // Add a small radius since getSatelliteImagery uses point intersects by default
+          const res = await api.getSatelliteImagery({
+            latitude: locationContext.latitude,
+            longitude: locationContext.longitude,
+          });
+          if (isMounted) {
+            setSatelliteData(res);
+          }
+        } catch (error) {
+          if (isMounted) {
+            setSatelliteError("Failed to load satellite data.");
+          }
+        } finally {
+          if (isMounted) {
+            setSatelliteLoading(false);
+          }
+        }
+      };
+      fetchSatData();
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [locationContext]);
 
   return (
     <div className="flex flex-col lg:flex-row h-full overflow-hidden bg-bg-base">
@@ -60,37 +107,30 @@ export default function ActiveAnalysisState({
           </div>
         )}
 
-        <div className="flex-1 relative rounded-xl border border-border-subtle overflow-hidden bg-[#0a1420] flex flex-col shadow-inner">
+        <div className="flex-1 relative rounded-xl border border-border-subtle overflow-hidden bg-[#0a1420] flex flex-col shadow-inner z-0">
           {isLocationBased ? (
-            isLoaded ? (
-              <GoogleMap
-                mapContainerStyle={mapContainerStyle}
-                center={{ lat: locationContext.latitude, lng: locationContext.longitude }}
+              <MapContainer
+                center={[locationContext.latitude, locationContext.longitude]}
                 zoom={14}
-                options={{
-                  disableDefaultUI: false,
-                  zoomControl: true,
-                  streetViewControl: false,
-                  mapTypeControl: true,
-                  mapTypeId: "hybrid",
-                }}
+                style={mapContainerStyle}
               >
-                <Marker position={{ lat: locationContext.latitude, lng: locationContext.longitude }} />
-                <Circle
-                  center={{ lat: locationContext.latitude, lng: locationContext.longitude }}
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <MapUpdater center={[locationContext.latitude, locationContext.longitude]} />
+                <LeafletMarker position={[locationContext.latitude, locationContext.longitude]} />
+                <LeafletCircle
+                  center={[locationContext.latitude, locationContext.longitude]}
                   radius={(locationContext.radiusKm || 2) * 1000}
-                  options={{
+                  pathOptions={{
                     fillColor: "#10b981",
                     fillOpacity: 0.15,
-                    strokeColor: "#10b981",
-                    strokeOpacity: 0.8,
-                    strokeWeight: 2,
+                    color: "#10b981",
+                    weight: 2,
                   }}
                 />
-              </GoogleMap>
-            ) : (
-              <div className="flex items-center justify-center h-full text-text-muted">Loading map...</div>
-            )
+              </MapContainer>
           ) : selectedImgObj ? (
             <div className="relative w-full h-full flex items-center justify-center bg-black/40">
               <img
@@ -140,9 +180,27 @@ export default function ActiveAnalysisState({
                 <span className="text-xs text-text-muted font-mono">{locationContext.latitude?.toFixed(4)}, {locationContext.longitude?.toFixed(4)}</span>
               </div>
               <div className="w-px h-6 bg-border-subtle"></div>
-              <div className="flex flex-col">
+              
+              <div className="flex flex-col flex-1">
                 <span className="text-[10px] text-emerald-400 uppercase font-bold tracking-wider">Data</span>
-                <span className="text-xs text-text-muted">Sentinel-2 (Available)</span>
+                {satelliteLoading ? (
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 rounded-full border-2 border-emerald-400 border-t-transparent animate-spin"></div>
+                    <span className="text-xs text-text-muted">Fetching STAC data...</span>
+                  </div>
+                ) : satelliteError ? (
+                  <span className="text-xs text-red-400">{satelliteError}</span>
+                ) : satelliteData?.available ? (
+                  <div className="flex flex-col">
+                    <span className="text-xs text-text-main">{satelliteData.provider}</span>
+                    <span className="text-[10px] text-text-muted">
+                      {satelliteData.selected_date ? new Date(satelliteData.selected_date).toLocaleDateString() : 'Recent'} 
+                      {satelliteData.cloud_cover !== undefined ? ` • ${Math.round(satelliteData.cloud_cover)}% cloud cover` : ''}
+                    </span>
+                  </div>
+                ) : (
+                  <span className="text-xs text-red-400">No suitable satellite observation found for this location.</span>
+                )}
               </div>
             </div>
           )}

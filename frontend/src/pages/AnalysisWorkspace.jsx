@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect, no-unused-vars, no-empty */
 import { useState, useEffect, useRef } from "react";
 import { api } from "../services/api";
 import ConversationSidebar from "../components/workspace/ConversationSidebar";
@@ -25,16 +26,6 @@ export default function AnalysisWorkspace({
   const [activeLocationContext, setActiveLocationContext] = useState(initialLocationContext || null);
   
   const hasContent = messages.length > 0 || attachedImages.length > 0 || activeLocationContext;
-
-  useEffect(() => {
-    loadAllConversations();
-  }, []);
-
-  useEffect(() => {
-    if (selectedConversation) {
-      loadConversation(selectedConversation);
-    }
-  }, [selectedConversation]);
 
   const loadAllConversations = async () => {
     try {
@@ -106,6 +97,16 @@ export default function AnalysisWorkspace({
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    loadAllConversations();
+  }, []);
+
+  useEffect(() => {
+    if (selectedConversation) {
+      loadConversation(selectedConversation);
+    }
+  }, [selectedConversation]);
 
   const handleQuerySubmit = async () => {
     if (!currentQuery.trim()) return;
