@@ -7,3 +7,5 @@ motor
 passlib[bcrypt]
 email-validator
 PyJWT
+rasterio
+numpy
